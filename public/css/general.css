@@ -1,0 +1,160 @@
+body{
+  background: url('http://localhost/fer-store/public/img/page/body-mezclilla.jpg');
+  background-attachment: fixed;
+}
+.navbar{
+  background: #000000;
+}
+.navbar ul li{
+  text-transform: uppercase;
+  border-right: 1px solid #fff;
+  font-weight: bold;
+  font-size: 13px;
+}
+.navbar .redes li{
+  border-right: none;
+}
+.owl-carousel{
+  display: block;
+  margin:auto;
+}
+.destacados{
+  background: #000000;
+  font-size: 30px;
+  margin-bottom: 50px;
+  }
+.destacados > ul {
+  display: flex;
+  justify-content: center;
+}
+.destacados li {
+  margin: 1rem 2rem;
+  color: #ffffff;
+}
+
+.container h2{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 0;
+  color: #ffffff;
+}
+.offers{
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.offers .item{
+  background: #00529e;
+  box-sizing: border-box;
+  color: #ffffff;
+  margin-bottom: 30px;
+  overflow: hidden;
+}
+.offers .item img{
+  width: 100%;
+  padding: 3px;
+}
+.offers .item .detail{
+  width: 100%;
+}
+.offers .item .nom,
+.offers .item .price{
+  display: block;
+  float: left;
+}
+.offers .item .nom{
+  width: 100%;
+}
+.offers .item .cotizar,
+.offers .item .mod,
+.offers .item .marca,
+.offers .item .desde{
+  display: block;
+  padding: 5px 10px;
+}
+.offers .item .cotizar{
+  background: #142654;
+}
+.offers .item .cotizar a{
+  background: #000000;
+  padding: 10px;
+  margin: auto;
+  display: block;
+  width: 60%;
+  border-radius: 10px;
+  border: solid 1px #EA1616;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.offers .item .cotizar img{
+  width: 35px;
+  margin-left: 5px;
+}
+.offers .item .mod{
+  font-size: 17px;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.offers .item .marca{
+  background: #142654;
+  border-top: 1px solid #ffffff;
+  border-bottom: 1px solid #ffffff;
+}
+.offers .item .desde{
+  font-weight:lighter;
+}
+.offers .item .desde span{
+font-size: 30px;
+font-weight: bold;
+margin: 0 5px;
+}
+.marcas{
+  background: #000000;
+  padding: 20px;
+  margin-bottom: 60px;
+}
+.marcas h2{
+  text-align: center;
+  font-size: 25px;
+  background: #EA1616;
+  border-radius: 5px;
+  width: 25%;
+  padding: 10px;
+  color: #ffffff;
+  margin: auto;
+  margin-bottom: 10px;
+}
+.marcas .p-2{
+  text-align: center;
+  background: #ffffff;
+  border: 2px solid #EA1616;
+}
+.marcas .p-2 img{
+  width: 40%;
+}
+.footer{
+  padding: 20px 0;
+  background: #1E1D1D;
+}
+footer ul li{
+  list-style: none;
+  border-right: 1px solid #fff;
+}
+footer ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+footer .subfooter{
+  padding: 20px 0;
+  background: #000000;
+}
+footer .subfooter img{
+  margin-right: 10px;
+  border-radius: 5px;
+}
