@@ -1,148 +1,125 @@
-body {
-  background: url("http://localhost/fer-store/public/img/page/body-mezclilla.jpg");
+body{
+  background: url('http://localhost/fer-store/public/img/page/body-mezclilla.jpg');
   background-attachment: fixed;
 }
-
-body .navbar {
+.navbar{
   background: #000000;
 }
-
-body .navbar ul li {
+.navbar ul li{
   text-transform: uppercase;
   border-right: 1px solid #fff;
   font-weight: bold;
   font-size: 13px;
 }
-
-body .navbar .redes li {
+.navbar .redes li{
   border-right: none;
 }
-
-body .owl-carousel {
+.owl-carousel{
   display: block;
-  margin: auto;
+  margin:auto;
 }
-
-body .destacados {
+.destacados{
   background: #000000;
   font-size: 30px;
   margin-bottom: 50px;
-}
-
-body .destacados > ul {
+  }
+.destacados > ul {
   display: flex;
   justify-content: center;
 }
-
-body .destacados li {
+.destacados li {
   margin: 1rem 2rem;
   color: #ffffff;
 }
 
-body .container h2 {
+.container h2{
   text-align: center;
   font-weight: bold;
   margin-bottom: 0;
   color: #ffffff;
 }
-
-body .offers {
+.offers{
   padding-top: 30px;
   padding-bottom: 30px;
 }
-
-body .offers .item {
+.offers .item{
   background: #00529e;
   box-sizing: border-box;
   color: #ffffff;
   margin-bottom: 30px;
   overflow: hidden;
 }
-
-body .offers .item img {
+.offers .item img{
   width: 100%;
   padding: 3px;
 }
-
-body .offers .item .detail {
+.offers .item .detail{
   width: 100%;
 }
-
-body .offers .item .nom,
-body .offers .item .price {
+.offers .item .nom,
+.offers .item .price{
   display: block;
   float: left;
 }
-
-body .offers .item .nom {
+.offers .item .nom{
   width: 100%;
 }
-
-body .offers .item .cotizar,
-body .offers .item .mod,
-body .offers .item .marca,
-body .offers .item .desde {
+.offers .item .cotizar,
+.offers .item .mod,
+.offers .item .marca,
+.offers .item .desde{
   display: block;
   padding: 5px 10px;
 }
-
-body .offers .item .cotizar {
+.offers .item .cotizar{
   background: #142654;
 }
-
-body .offers .item .cotizar a {
+.offers .item .cotizar a{
   background: #000000;
   padding: 10px;
   margin: auto;
   display: block;
   width: 60%;
   border-radius: 10px;
-  border: solid 1px #ea1616;
+  border: solid 1px #EA1616;
   text-align: center;
   text-decoration: none;
   color: #ffffff;
   font-weight: bold;
   text-transform: uppercase;
 }
-
-body .offers .item .cotizar img {
+.offers .item .cotizar img{
   width: 35px;
   margin-left: 5px;
 }
-
-body .offers .item .mod {
+.offers .item .mod{
   font-size: 17px;
   padding: 5px 10px;
   font-weight: bold;
   text-transform: uppercase;
 }
-
-body .offers .item .marca {
+.offers .item .marca{
   background: #142654;
   border-top: 1px solid #ffffff;
   border-bottom: 1px solid #ffffff;
 }
-
-body .offers .item .desde {
-  font-weight: lighter;
+.offers .item .desde{
+  font-weight:lighter;
 }
-
-body .offers .item .desde span {
-  font-size: 30px;
-  font-weight: bold;
-  margin: 0 5px;
+.offers .item .desde span{
+font-size: 30px;
+font-weight: bold;
+margin: 0 5px;
 }
-
-body .marcas {
+.marcas{
   background: #000000;
   padding: 20px;
   margin-bottom: 60px;
 }
-
-body .marcas h2 {
+.marcas h2{
   text-align: center;
   font-size: 25px;
-  background: #ea1616;
+  background: #EA1616;
   border-radius: 5px;
   width: 25%;
   padding: 10px;
@@ -150,42 +127,34 @@ body .marcas h2 {
   margin: auto;
   margin-bottom: 10px;
 }
-
-body .marcas .p-2 {
+.marcas .p-2{
   text-align: center;
   background: #ffffff;
-  border: 2px solid #ea1616;
+  border: 2px solid #EA1616;
 }
-
-body .marcas .p-2 img {
+.marcas .p-2 img{
   width: 40%;
 }
-
-.footer {
+.footer{
   padding: 20px 0;
-  background: #1e1d1d;
+  background: #1E1D1D;
 }
-
-.footer ul li {
+footer ul li{
   list-style: none;
   border-right: 1px solid #fff;
 }
-
-.footer ul li a {
+footer ul li a{
   text-decoration: none;
   color: #fff;
   font-size: 17px;
   text-transform: uppercase;
   font-weight: bold;
 }
-
-.subfooter {
+footer .subfooter{
   padding: 20px 0;
   background: #000000;
 }
-
-.subfooter img {
+footer .subfooter img{
   margin-right: 10px;
   border-radius: 5px;
 }
-

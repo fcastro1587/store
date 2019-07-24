@@ -1,0 +1,160 @@
+body {
+  background: url("http://localhost/fer-store/public/img/page/body-mezclilla.jpg");
+  background-attachment: fixed;
+  .navbar {
+    background: #000000;
+    ul li {
+      text-transform: uppercase;
+      border-right: 1px solid #fff;
+      font-weight: bold;
+      font-size: 13px;
+    }
+    .redes li {
+      border-right: none;
+    }
+  }
+  .owl-carousel {
+    display: block;
+    margin: auto;
+  }
+  .destacados {
+    background: #000000;
+    font-size: 30px;
+    margin-bottom: 50px;
+    > ul {
+      display: flex;
+      justify-content: center;
+    }
+    li {
+      margin: 1rem 2rem;
+      color: #ffffff;
+    }
+  }
+  .container h2 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #ffffff;
+  }
+  .offers {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    .item {
+      background: #00529e;
+      box-sizing: border-box;
+      color: #ffffff;
+      margin-bottom: 30px;
+      overflow: hidden;
+      img {
+        width: 100%;
+        padding: 3px;
+      }
+      .detail {
+        width: 100%;
+      }
+      .nom,
+      .price {
+        display: block;
+        float: left;
+      }
+      .nom {
+        width: 100%;
+      }
+      .cotizar,
+      .mod,
+      .marca,
+      .desde {
+        display: block;
+        padding: 5px 10px;
+      }
+      .cotizar {
+        background: #142654;
+        a {
+          background: #000000;
+          padding: 10px;
+          margin: auto;
+          display: block;
+          width: 60%;
+          border-radius: 10px;
+          border: solid 1px #ea1616;
+          text-align: center;
+          text-decoration: none;
+          color: #ffffff;
+          font-weight: bold;
+          text-transform: uppercase;
+        }
+        img {
+          width: 35px;
+          margin-left: 5px;
+        }
+      }
+      .mod {
+        font-size: 17px;
+        padding: 5px 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+      }
+      .marca {
+        background: #142654;
+        border-top: 1px solid #ffffff;
+        border-bottom: 1px solid #ffffff;
+      }
+      .desde {
+        font-weight: lighter;
+        span {
+          font-size: 30px;
+          font-weight: bold;
+          margin: 0 5px;
+        }
+      }
+    }
+  }
+
+  .marcas {
+    background: #000000;
+    padding: 20px;
+    margin-bottom: 60px;
+    h2 {
+      text-align: center;
+      font-size: 25px;
+      background: #ea1616;
+      border-radius: 5px;
+      width: 25%;
+      padding: 10px;
+      color: #ffffff;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .p-2 {
+      text-align: center;
+      background: #ffffff;
+      border: 2px solid #ea1616;
+      img {
+        width: 40%;
+      }
+    }
+  }
+}
+.footer {
+  padding: 20px 0;
+  background: #1e1d1d;
+  ul li {
+    list-style: none;
+    border-right: 1px solid #fff;
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 17px;
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
+.subfooter {
+  padding: 20px 0;
+  background: #000000;
+  img {
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+}
